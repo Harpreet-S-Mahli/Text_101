@@ -7,18 +7,48 @@ public class AdventureGame : MonoBehaviour
 {
     // Now can be manipulated in the inspector
     [SerializeField] Text textComponent;
-    string wordsInTextComponent;
+    
+
+    //the first state to start the game on
+    [SerializeField] State startingState;
+
+    //used to keep track of our current state
+    State state;
 
     // Start is called before the first frame update
     void Start()
     {
-        wordsInTextComponent = "Wow";
-        textComponent.text = wordsInTextComponent;
+        //intialize the first state of the game to start
+        state = startingState;
+
+        //call method to grab text from the state object into the textComponent
+        textComponent.text = state.GetStateStory();
     }
 
     // Update is called once per frame
     void Update()
     {
+        ManageState();
+    }
+
+    //when player presses a number, the state will update to the number selected
+    private void ManageState()
+    {
+        State[] nextStates = state.GetNextStates();
+
         
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            state = nextStates[0];
+        } else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            state = nextStates[1];
+        } else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            state = nextStates[2];
+        }
+
+        //call method to grab text from the state object into the textComponent
+        textComponent.text = state.GetStateStory(); 
     }
 }
