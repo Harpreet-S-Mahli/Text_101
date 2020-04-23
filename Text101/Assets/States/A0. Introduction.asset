@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to a text adventure game!
+
+
+    At each stage, you''ll be asked to push a key on th keyboard. For example, "Press
+    1","Press 2", and so on!
+
+
+    Choose which path you want to go on, and press the appropriate key! If at any
+    point you''re done and want to leave, press the key "q" on the keyboard to quit!
+
+
+    Now, press 1 to begin!'
+  nextStates:
+  - {fileID: 11400000, guid: 7e006c54d8ef9f44997f4cc0abde1b5c, type: 2}
