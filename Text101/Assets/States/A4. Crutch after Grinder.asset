@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A4. Crutch after Grinder
+  m_EditorClassIdentifier: 
+  storyText: "You set the grinder down, now full of weed, ready to be in a joint.
+    The first wave of blows have landed, and thankfully, they didn't do any serious
+    damage yet. You grab one end of the crutch, and start folding it to make a M-shape
+    fold, then with the remaining crutch that hasn't been folded, you start wrapping
+    it around the M-shape fold. You make sure to roll it around the fold, then pull
+    to tighten it. You keep repeating the process until you got a rolled filter with
+    a M-Shape fold in the middle.\r\n\r\nAs you set the crutch down, now ready, a
+    blow comes across your right cheek. It's a good shot, as you're a bit dizzy from
+    the attack. What do you do?\r\n\r\nPress 1) Grab the rolling paper\r\nPress 2)
+    Defend and attack back"
+  nextStates:
+  - {fileID: 11400000, guid: bc7909bd57eefef4594ca4db517f00cd, type: 2}
+  - {fileID: 11400000, guid: fc4c8657179e5684191f8626f3c0effe, type: 2}

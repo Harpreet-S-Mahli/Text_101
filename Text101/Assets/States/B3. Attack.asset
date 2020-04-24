@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: B3. Attack
+  m_EditorClassIdentifier: 
+  storyText: "You stop what you're doing, and set down all of the materials where
+    they originally were. You block a punch to your right and kick to left, and stand
+    up for the first time throughout this whole ordeal. You face your brothers and
+    start fighting back, with your body aching from all the blows you've felt before.
+    However, you notice your master sigh once you start fighting back.\r\n\r\nPress
+    1) Continue attacking.\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 9a04fb5444dd718498b826b60088af6e, type: 2}

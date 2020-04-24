@@ -29,6 +29,11 @@ public class AdventureGame : MonoBehaviour
     void Update()
     {
         ManageState();
+
+        if (Input.GetKey("escape") || Input.GetKey(KeyCode.Q))
+        {
+            Application.Quit();
+        }
     }
 
     //when player presses a number, the state will update to the number selected
@@ -36,7 +41,14 @@ public class AdventureGame : MonoBehaviour
     {
         State[] nextStates = state.GetNextStates();
 
-        
+        for(int index = 0; index < nextStates.Length; index++)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                state = nextStates[index];
+            }
+        }
+      /*  
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             state = nextStates[0];
@@ -47,7 +59,7 @@ public class AdventureGame : MonoBehaviour
         {
             state = nextStates[2];
         }
-
+        */
         //call method to grab text from the state object into the textComponent
         textComponent.text = state.GetStateStory(); 
     }

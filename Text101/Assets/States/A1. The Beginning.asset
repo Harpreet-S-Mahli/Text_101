@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
   m_Name: A1. The Beginning
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "Today is the last day of your training. After this, you'll be officially
+    recognized as a black belt in Weed-Fu!\r\n\r\nHowever, for your last test, you
+    have to be able to roll the perfect joint while defending yourself at the same
+    time. Only one who can roll while mastering their body and mind, will understand
+    the fundamentals of Weed-Fu!\r\n\r\nYour master waits for you to begin, with all
+    the materials to roll a joint in front of you. You're surrounded by your fellow
+    brothers, ready to attack you when you begin. You're gonna have to take the correct
+    steps to roll a perfect joint!\r\n\r\nPress 1) Begin the test"
+  nextStates:
+  - {fileID: 11400000, guid: 7dcb855656f8ca5438c07c08692f470f, type: 2}

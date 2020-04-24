@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A5. Rolling Paper
+  m_EditorClassIdentifier: 
+  storyText: "Now the cannabis strain has been shredded into smaller bits, and the
+    filter is created from the crutch. You now have all the basic components ready
+    to start rolling the joint. You grab the rolling paper, and while holding it horizontally
+    towards you, with one hand on one end, you place the crutch on the other end.
+    While still holding the rolling paper from the opposite end of the crutch, you
+    fold the paper slightly into a V-shape, and start filling its inside with the
+    weed in the grinder. You continue diligently, while feeling blow after blow all
+    over your body. What do you do?\r\n\r\nPress 1) Pack the joint\r\nPress 2) Defend
+    and attack\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 9320107f89b9d20418fb629a9f0cfc76, type: 2}
+  - {fileID: 11400000, guid: fc4c8657179e5684191f8626f3c0effe, type: 2}

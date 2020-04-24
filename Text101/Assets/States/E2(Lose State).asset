@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: E2(Lose State)
+  m_EditorClassIdentifier: 
+  storyText: "You've failed the final test, as the true test was to block out the
+    beatings while rolling a joint. In fact, you just continue to whooping everyone's
+    ass. Like, holy shit! You could be Bruce Lee's left nut with the way you're beating
+    everyone. Maybe....I'M JUST SAYING....MAYBE.....Weed-Fu isn't the martial arts
+    for you.\r\n\r\nPress 1) Retry again after taking a year off for training\r\n\nPress
+    q) Decide to stop being a stoner and move onto conqeuring the world [QUIT]"
+  nextStates:
+  - {fileID: 11400000, guid: 7e006c54d8ef9f44997f4cc0abde1b5c, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A6. Packing the Joint
+  m_EditorClassIdentifier: 
+  storyText: "The rolling paper is loaded with the weed from the grind, with the filter
+    on one end. You pinch the paper between your fingertips from both end, while still
+    holding the paper horizontally towards you, and roll it back and forth to pack
+    the cannabis down into a cone shape. A blow comes to your hand, and you almost
+    drop the unfinished joint. However, through sheer will and the luck of destiny,
+    you still manage to hold on. What do you do? \r\n\r\nPress 1) Roll the joint\r\nPress
+    2) Defend and attack\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: c0ab96fd8508f34408afb261593eb366, type: 2}
+  - {fileID: 11400000, guid: fc4c8657179e5684191f8626f3c0effe, type: 2}

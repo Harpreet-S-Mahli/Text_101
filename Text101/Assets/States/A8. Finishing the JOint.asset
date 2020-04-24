@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A8. Finishing the JOint
+  m_EditorClassIdentifier: 
+  storyText: "With the joint now being almost done, you take the pen that's in front
+    of you, and start packing the open end of the joint, by pushing down the weed
+    with the pen. Afterwards, you use the pen to stab a few of your brothers out of
+    frustration. Now, you take the last bit of rolling paper that's left on the open
+    end, and twist it to close off that end. You're almost finished with the test,
+    now one last thing to do in this continuous storm of punches and kicks.\r\n\r\nPress
+    1) Light the  joint\r\nPress 2) Defend and attack\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 9df2ffb2c7e4d4d40ac41bad519927ac, type: 2}
+  - {fileID: 11400000, guid: fc4c8657179e5684191f8626f3c0effe, type: 2}

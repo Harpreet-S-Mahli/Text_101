@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A3.Grinder before Crutch
+  m_EditorClassIdentifier: 
+  storyText: "You grab the cannabis and grinder, and start grinding up the weed into
+    smaller bits so it's easier to roll later. As you start grinding, you notice from
+    your peripheral vision, that your fellow brothers start to move. Soon, the first
+    wave of attacks will hit you, what do you do?\r\n \r\nPress 1) Grab the crutch
+    to make a filter\r\nPress 2) Defend and attack back"
+  nextStates:
+  - {fileID: 11400000, guid: d261e8173fe0d634999eb470f0a58883, type: 2}
+  - {fileID: 11400000, guid: fc4c8657179e5684191f8626f3c0effe, type: 2}

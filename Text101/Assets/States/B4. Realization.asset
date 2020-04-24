@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: B4. Realization
+  m_EditorClassIdentifier: 
+  storyText: "It suddenly hits you, why your master sighed. The point of the final
+    exam is to show that you've mastered your body and mind. You knew that the mind
+    was represented if you could roll the joint, but the body.... At first, you assumed
+    it was if you could fight back, that would showcase you mastering the body. However,
+    the true ordeal was to take the blows and continue to roll the joint, thus showing
+    that your body and mind are communication to one another. With realizing that
+    you've failed, you decide to finish attacking.\r\n\r\nPress 1) Finish what you
+    started\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 3525c956e01ed904ba713f4e627fe5d1, type: 2}

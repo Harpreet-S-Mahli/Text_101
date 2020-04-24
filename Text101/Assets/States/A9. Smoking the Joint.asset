@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8122b23e663a64ab0ca5cf388b253c, type: 3}
+  m_Name: A9. Smoking the Joint
+  m_EditorClassIdentifier: 
+  storyText: "You block a few of the attacks, and set the pen down. Now the moment
+    has come, and just on time. The pain has now set in, as your adrenaline has worn
+    off. You feel all of the blows that have been landed on you, and are on the verge
+    on passing out. However, you will your way thru the last of the attacks, and grab
+    the lighter in front of you. Without a moment of hesitation, and through all of
+    the years that you've practiced, you effortlessly light the joint and take a hit.\r\n\r\nPress
+    1) Experience Nirvana.\r\n\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 0a0cb148f345bf64287c0d6c8fdbb6e1, type: 2}
